@@ -8,7 +8,13 @@ const App = () => {
   };
   return (
     <div>
-      <h1>{state}</h1>
+      <h1
+        style={{
+          fontSize: "50px",
+        }}
+      >
+        {state}
+      </h1>
       <button onClick={increment}>increment</button>
     </div>
   );
