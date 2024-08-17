@@ -10,12 +10,13 @@ const App = () => {
     <div>
       <h1
         style={{
-          fontSize: "50px",
+          fontSize: "90px",
+          background: "blue",
         }}
       >
         {state}
       </h1>
-      <button onClick={increment}>increment</button>
+      <button onClick={increment}>increment + 1</button>
     </div>
   );
 };
